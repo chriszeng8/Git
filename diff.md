@@ -14,8 +14,8 @@ $ git diff topic..master   (2)
 $ git diff topic...master  (3)
 ```
 
-Changes between the tips of the topic and the master branches.
+(1)Changes between the tips of the topic and the master branches.
 
-Same as above.
+(2)Same as above.
 
-Changes that occurred on the master branch since when the topic branch was started off it.
+(3)Changes that occurred on the master branch since when the topic branch was started off it.
