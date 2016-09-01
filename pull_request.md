@@ -11,14 +11,13 @@ create a branch of a master (trunk) for modification without affecting the maste
 git branch
 ```
 
-2. 
-a. create a new branch locally based on master (i.e., make a copy of the master)
+2. create a new branch locally based on master (i.e., make a copy of the master)
 
 ```
 git branch new_branch_name
 ```
 
- b. create a new branch based on an existing branch other than master
+if to create a new branch based on an existing branch other than master
 
 ```
 git checkout -b new_branch_name existing_branch
