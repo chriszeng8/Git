@@ -1,1 +1,1 @@
-git log --pretty=format:'"%h","%an","%aD","%s",' --shortstat --no-merges | paste - - - > log.csv
+git log --since="last month" --pretty=format:'%h,%an,%ar,%s' > log.csv
